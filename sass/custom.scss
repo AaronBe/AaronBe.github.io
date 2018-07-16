@@ -6,16 +6,18 @@ p
 {
 	/* font-size:110%; */
 	font-size:120%;
-	font-weight:575;
+	// font-weight:575;
+	// font-weight: 500;
 	color:#DCDCDC;
-	font-family:"Times New Roman";
+	  font-family:"Times New Roman";
+	// font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .carousel-default
 {
 	height:auto;
 	width:auto;
-} 
+}
 
 .indexBody
 {
@@ -29,7 +31,7 @@ p
 	background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.43) 0%,rgba(0,0,0,0.43) 67%,rgba(0,0,0,1) 100%),(url("../img/verticleBackground.jpg") repeat-x  fixed 0 0); /* Opera 12+ */
 	background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.43) 0%,rgba(0,0,0,0.43) 67%,rgba(0,0,0,1) 100%),(url("../img/verticleBackground.jpg") repeat-x  fixed 0 0); /* IE10+ */
 	background: radial-gradient(ellipse at center,  rgba(0,0,0,0.43) 0%,rgba(0,0,0,0.43) 67%,rgba(0,0,0,1) 100%),(url("../img/verticleBackground.jpg") repeat-x  fixed 0 0); /* W3C */
- 
+
 }
 
 .nonIndexBody
@@ -38,7 +40,7 @@ p
 	padding-top:0px;
 /* 	margin-left:50px;
 	margin-right:50px; */
-} 
+}
 
 .infoTextPad
 {
@@ -83,7 +85,7 @@ p
 {
 	padding-bottom:2px;
 	position: absolute;
-    bottom: 0; 
+    bottom: 0;
 }
 
 .logo
@@ -115,7 +117,7 @@ p
 .navigationDropdown
 {
  	font-family:"Times New Roman";
-	color:#89772f !important; 
+	color:#89772f !important;
 	font-size:120%;
 }
 .navigationDropdown:hover
@@ -183,7 +185,7 @@ p
 {
 	/* background-color:#DCDCDC; */
 	background-color:black;
-	border-color:#696969;	
+	border-color:#696969;
 	/* #FFFAF0; */
 	/* #DCDCDC; */
 	/* #F8F8FF; *
@@ -240,44 +242,44 @@ p
 
 .modalClosekaeran
 {
- 	right:50%; 
+ 	right:50%;
 	position: relative;
 }
 
 
 /* .grayscaleHover
 {
-	filter: url(filters.svg#grayscale); 
+	filter: url(filters.svg#grayscale);
 	filter: gray;
-	-webkit-filter: grayscale(1); 
+	-webkit-filter: grayscale(1);
 }
-                 
-.grayscaleHover:hover 
+
+.grayscaleHover:hover
 {
 	filter: none;
 	-webkit-filter: grayscale(0);
 }  */
-	
+
 /* .grayscaleHover
 {
 	filter: none;
-	-webkit-filter: grayscale(0); 
+	-webkit-filter: grayscale(0);
 
 	@include filter(none);
 } */
-                 
-.grayscaleHover:hover 
+
+.grayscaleHover:hover
 {
 /* 	filter: url(filters.svg#grayscale);
 	filter: gray;
 	-webkit-filter: grayscale(1); */
-	
+
  @include filter(grayscale(100%));
  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
  filter: gray;
-	
+
 }
-	 
+
 .carouselNavigation li
 {
   width: 15px;
@@ -286,7 +288,7 @@ p
 
 .centerPage
 {
-	margin: 0px auto; 
+	margin: 0px auto;
 	float:none;
 }
 
@@ -313,7 +315,7 @@ p
 
 .roundCorners
 {
-	@include border-radius(5px, 5px); 
+	@include border-radius(5px, 5px);
 }
 
 .eventWellColor
