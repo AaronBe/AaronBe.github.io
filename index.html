@@ -39,8 +39,10 @@
 <body class="indexBody">
   <div class="container-fluid" />
   <div class="span10 centerPage">
-    <div w3-include-html="navbar.html"></div>
-      <script >includeHTML();</script>
+    <link rel="import" href="navbar.html">
+    <!-- <div w3-include-html="navbar.html"></div> -->
+      <script >supportsImports();
+      includeHTML();</script>
     <div class="carouselBorder">
     </div>
     <div id="myCarousel" class="carousel slide carouselBottomMargin">
