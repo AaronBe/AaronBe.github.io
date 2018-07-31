@@ -1,9 +1,4 @@
 // includeHTML();
-
-function supportsImports() {
-  return 'import' in document.createElement('link');
-}
-
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
