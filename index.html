@@ -32,17 +32,27 @@
   <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
- <script type="text/javascript" src="js/includeHTML.js"></script>
+  <script type="text/javascript" src="js/includeHTML.js"></script>
 
 </head>
 
 <body class="indexBody">
   <div class="container-fluid" />
-  <div class="span10 centerPage">
+
+  <div class="span4 pull-right">
+    <h2 class="Twitter"></h2>
+    <a class="twitter-timeline infoArea !important" data-height="500" data-theme="dark" data-chrome=“transparent” href="https://twitter.com/dwcraigie?ref_src=twsrc%5Etfw">Tweets by dwcraigie</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+
+    <div class="span10 centerPage">
     <div w3-include-html="navbar.html"></div>
-      <script > includeHTML();</script>
+    <script>
+      includeHTML();
+    </script>
     <div class="carouselBorder">
     </div>
+
     <div id="myCarousel" class="carousel slide carouselBottomMargin">
       <ol class="carousel-indicators carouselNavigation hidden-phone">
         <li data-target="#myCarousel" data-slide-to="0" class="active carouselIndicatorHover"></li>
@@ -72,48 +82,37 @@
         </div>
         <!--/span-->
         <div class="span4 infoAreaBlocks">
-          <h2 class="text">Sample Chapters and Excerpts</h2>
-          <p>Excerpts from <i>Broken Justice</i>, <i>The Paths we Choose</i>, and "Tales of K'aeran - A New Road". </p>
-          <p><a class="btn" href="./sample_chapters.html">Read More &raquo;</a></p>
-        </div>
-        <!--/span-->
-        <div class="span4 infoAreaBlocks">
-          <h2 class="text">New Releases</h2>
-          <p>The first of a planned trilogy, <i>Broken Justice</i> introduces readers to the world of K'aeran and the conflict raging across its landscapes. While written in the style of traditional western fantasy, <i>Broken Justice</i> approaches character
-            development with a modern, literary view. Humans, complex and flawed, are rarely paragons and what is true in our own world is true in K'aeran. A leader may follow his heart in choosing what he thinks best for his people, but what if that
-            heart is darkened by anger and resentment?A soldier might fight for his country, but will he fight as hard when he stops believing in that country?
-          </p>
-          <p><a class="btn" href="./new_releases.html">Read More &raquo;</a></p>
-        </div>
-      </div>
-      <!-- new row -->
-      <div class="carouselBorder">
-      </div>
-      <div class="row-fluid infoArea">
-        <!-- <div class="carouselBorder"> -->
-        <div class="span4 infoAreaBlocks">
-          <h2 class="Twitter"></h2>
-          <a class="twitter-timeline infoArea !important" data-height="500" data-theme="dark" data-chrome=“transparent” href="https://twitter.com/dwcraigie?ref_src=twsrc%5Etfw">Tweets by dwcraigie</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-        <!--/span-->
-        <div class="span4 infoAreaBlocks">
           <h2 class="text">8 Short Story Writing Tips from a Dean of Creative Writing</h2>
           <p>I love stories. It's safe to assume that applies to all fiction writers. Novels allow us to weave complex narratives that evoke authentic worlds and intriguing characters. The benefit of a novel is that it gives a writer the time and space to
             build a fictional, yet believable, world. It can also be argued that it gives writers too much time and space.</p>
           <p><a class="btn" href="https://www.snhu.edu/about-us/news-and-events/2018/02/short-story-writing">Read More &raquo;</a></p>
+          <!-- <h2 class="text">Sample Chapters and Excerpts</h2>
+          <p>Excerpts from <i>Broken Justice</i>, <i>The Paths we Choose</i>, and "Tales of K'aeran - A New Road". </p>
+          <p><a class="btn" href="./sample_chapters.html">Read More &raquo;</a></p> -->
         </div>
         <!--/span-->
+
         <div class="span4 infoAreaBlocks">
-          <h2 class="text">Some Content</h2>
+          <h2 class="text">Sample Chapters and Excerpts</h2>
+          <p>Excerpts from <i>Broken Justice</i>, <i>The Paths we Choose</i>, and "Tales of K'aeran - A New Road". </p>
+          <p><a class="btn" href="./sample_chapters.html">Read More &raquo;</a></p>
+
+          <!-- <h2 class="text">New Releases</h2>
           <p>The first of a planned trilogy, <i>Broken Justice</i> introduces readers to the world of K'aeran and the conflict raging across its landscapes. While written in the style of traditional western fantasy, <i>Broken Justice</i> approaches character
             development with a modern, literary view. Humans, complex and flawed, are rarely paragons and what is true in our own world is true in K'aeran. A leader may follow his heart in choosing what he thinks best for his people, but what if that
             heart is darkened by anger and resentment?A soldier might fight for his country, but will he fight as hard when he stops believing in that country?
           </p>
-          <p><a class="btn" href="./new_releases.html">Read More &raquo;</a></p>
+          <p><a class="btn" href="./new_releases.html">Read More &raquo;</a></p> -->
         </div>
-      </div>
 
+        <!-- <div class="span4 infoAreaBlocks">
+          <h2 class="Twitter"></h2>
+          <a class="twitter-timeline infoArea !important" data-height="500" data-theme="dark" data-chrome=“transparent” href="https://twitter.com/dwcraigie?ref_src=twsrc%5Etfw">Tweets by dwcraigie</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div> -->
+
+      </div>
+      <!-- new row -->
 
       <div class="carouselBorder">
       </div>
@@ -121,7 +120,15 @@
         &copy; 2013 D.W. Craigie
       </footer>
     </div>
+
   </div>
+
+  <!-- infoAreaBlocks centerPage -->
+  <!-- <div class="span4">
+    <h2 class="Twitter"></h2>
+    <a class="twitter-timeline infoArea !important" data-height="500" data-theme="dark" data-chrome=“transparent” href="https://twitter.com/dwcraigie?ref_src=twsrc%5Etfw">Tweets by dwcraigie</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div> -->
   <!--/.fluid-container-->
   <!-- Le javascript
             ================================================== -->
@@ -129,7 +136,6 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
   <script>
-
     $(window).load(function() {
 
       jQuery(function() {
