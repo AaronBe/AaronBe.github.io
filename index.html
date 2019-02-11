@@ -137,6 +137,26 @@
 
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script>
+     $(window).load(function () {
+
+       jQuery(function(){
+         $("#slider").append('<div class="item"><center><img src="img/Carousel_2.jpg" class="carousel-default" alt="D.W. Craigie Broken Justice Through Darkness Tall Kailen Tidespinner" /></center></div>');
+         $("#slider").append('<div class="item"><center><img src="img/Carousel_3.jpg" class="carousel-default" alt="D.W. Craigie Broken Justice Through Darkness Tall Morrikii Stonestriker" /></center></div>');
+         $("#slider").append('<div class="item"><center><img src="img/Carousel_4.jpg" class="carousel-default" alt="D.W. Craigie Broken Justice Through Darkness Tall Skal Rendarr" /></center></div>')
+         $("#slider").append('<div class="item"><center><img src="img/Carousel_7.jpg" class="carousel-default" alt="D.W. Craigie Broken Justice Through Darkness Tall Zaketh Darksteel" /></center></div>');;
+         $("#slider").append('<div class="item"><center><img src="img/Carousel_5.jpg" class="carousel-default" alt="Through Darkness Tall" /></center></div>');
+         $("#slider").append('<div class="item"><center><img src="img/Carousel_6.jpg" class="carousel-default" alt="D.W. Craigies Broken Justice Through Darkness Tall Book Store" /></center></div>');
+       });
+
+       $('.carousel').carousel
+       ({
+       animation: "slow",
+       direction: "vertical",
+       interval: 10000
+       });
+     });
+       </script>
 </body>
 
 </html>
